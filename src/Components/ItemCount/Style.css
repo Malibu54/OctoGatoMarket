@@ -1,0 +1,13 @@
+.counter{
+    width: 110%;
+    align-items: center;
+    text-align: center;
+    row-gap: 20px;
+    padding: 8px 8px 8px 8px;
+}
+
+.btn__cart{
+    display: flex;
+    justify-content:flex-end;
+    border-radius: 8px;
+}
