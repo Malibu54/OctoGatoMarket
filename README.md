@@ -1,11 +1,11 @@
 
 # Getting Started with Create React App 
-=======
+
 # This project is a market when you can sell octocats
 
-=======
+
 # This project is a market when you can sell octocats
->>>>>>> 25ff27cb00a383d8f192f3ee531d735933f7153e
+
 
 ### `Getting Started with Create React App`
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
