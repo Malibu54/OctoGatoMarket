@@ -1,32 +1,35 @@
 import "./NavBar.css";
 import { CartWidget } from "../CartWidget/CartWidget";
+import { Link } from "react-router-dom";
+import logo from "./logo.jpg";
+
+
 
 function NavBar() {
   return (
-    <><nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="Navbar">OctoGatoMarket</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
+    <>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <Link to={"/"}>
+        <img src={logo} alt="logo" className="logo" />
+      </Link>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="home">Home <span class="sr-only">(current)</span></a>
+        <Link to='/' className={({ isActive }) => (isActive ? "violet" : "white")}>Home </Link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Categoria_01">Categoria 01</a>
+        <Link to='/categoria_01' className={({ isActive }) => (isActive ? "violet" : "white")}>Categoria 01</Link> 
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Categoria_02">Categoria 02</a>
+        <Link to='/categoria_02' className={({ isActive }) => (isActive ? "violet" : "white")}>Categoria 02</Link>  
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Categoria_03">Categoria 03</a>
+        <Link to='/categoria_03' className={({ isActive }) => (isActive ? "violet" : "white")}>Categoria 03</Link>  
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Categoria_03">Contactanos</a>
+        <Link to='/Contactanos' className={({ isActive }) => (isActive ? "violet" : "white")}>Contactanos</Link>  
         </li>
-        <li><button type="button" class="btn btn-info"><CartWidget/></button></li>
+        <li><Link to='/CartWidget' className={({ isActive }) => (isActive ? "violet" : "white")}><button type="button" class="btn btn-info"><CartWidget/></button></Link></li>
       </ul>
     </div>
   </nav>

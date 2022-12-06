@@ -25,7 +25,6 @@ const ItemCount = () => {
       <div>
         <button>
           <CartWidget />
-          Buy!
         </button>
       </div>
     </div>

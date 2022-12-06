@@ -1,10 +1,12 @@
 .card-img img {
+  object-fit: cover;
   width: 100%;
   height: 100%;
-  object-fit: contain;
 }
 
 .card {
+  display: grid;
+  grid-template-rows: max-content 200px 1fr;
   width:230px;
   display:flex;
   flex-direction:column;
@@ -13,7 +15,8 @@
   margin:10px;
   padding:10px;
   background-color:#61dafb;
-  flex-wrap:wrap;
+  
+  color:black;
 }
 
 .card:hover {
@@ -29,9 +32,11 @@
 }
 
 .ContenedorCard{
-display: flex;
-justify-content: space-between;
-flex-wrap: wrap;
-color:black;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
+
 
