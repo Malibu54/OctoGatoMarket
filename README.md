@@ -2,7 +2,7 @@
 # Getting Started with Create React App 
 
 ### `This project is a market when you can sell your octocats`
-### `Getting Started with Create React App`
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 React Version 18.2.0
 ## Available Scripts
