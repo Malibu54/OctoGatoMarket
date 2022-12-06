@@ -23,6 +23,9 @@ function NavBar() {
         <li class="nav-item">
           <a class="nav-link" href="Categoria_03">Categoria 03</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Categoria_03">Contactanos</a>
+        </li>
         <li><button type="button" class="btn btn-info"><CartWidget/></button></li>
       </ul>
     </div>
