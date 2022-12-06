@@ -1,6 +1,7 @@
 
 import "./App.css";
 import ItemListContainer from "./Components/ItemListContainer/ItemListContainer";
+import NavBar from "./Components/NavBar/NavBar";
 
 
 
@@ -9,6 +10,7 @@ function App() {
 
 
 <div className="App">
+<NavBar/>
       <header className="App-header">
 
         <ItemListContainer presentation="Mira mis productos!"/>
