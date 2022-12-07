@@ -18,18 +18,20 @@ function NavBar() {
         <Link to='/' className={({ isActive }) => (isActive ? "violet" : "white")}>Home </Link>
         </li>
         <li class="nav-item">
-        <Link to='/categoria_01' className={({ isActive }) => (isActive ? "violet" : "white")}>Categoria 01</Link> 
+        <Link to='/black/id' className={({ isActive }) => (isActive ? "violet" : "white")}>Black</Link> 
         </li>
         <li class="nav-item">
-        <Link to='/categoria_02' className={({ isActive }) => (isActive ? "violet" : "white")}>Categoria 02</Link>  
+        <Link to='/cian/id' className={({ isActive }) => (isActive ? "violet" : "white")}>Cian</Link>  
         </li>
         <li class="nav-item">
-        <Link to='/categoria_03' className={({ isActive }) => (isActive ? "violet" : "white")}>Categoria 03</Link>  
+        <Link to='/white/id' className={({ isActive }) => (isActive ? "violet" : "white")}>White</Link>  
         </li>
         <li class="nav-item">
         <Link to='/Contactanos' className={({ isActive }) => (isActive ? "violet" : "white")}>Contactanos</Link>  
         </li>
-        <li><Link to='/CartWidget' className={({ isActive }) => (isActive ? "violet" : "white")}><button type="button" class="btn btn-info"><CartWidget/></button></Link></li>
+        <li>
+        <Link to='/CartWidget'><button><CartWidget/></button></Link>
+        </li>
       </ul>
     </div>
   </nav>

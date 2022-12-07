@@ -12,6 +12,7 @@ function Item(prop) {
         <h3>{prop.title}</h3>
         <span>{prop.description}</span>
         <p>U$D {prop.price}</p>
+        <span>{prop.category}</span>
       </div>
       <ItemCount />
     </div>
