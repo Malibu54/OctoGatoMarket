@@ -15,7 +15,7 @@ function NavBar() {
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-        <Link to='/' className={({ isActive }) => (isActive ? "violet" : "white")}>Home </Link>
+        <Link to='/home' className={({ isActive }) => (isActive ? "violet" : "white")}>Home </Link>
         </li>
         <li class="nav-item">
         <Link to='/black/id' className={({ isActive }) => (isActive ? "violet" : "white")}>Black</Link> 

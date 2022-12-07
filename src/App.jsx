@@ -7,6 +7,7 @@ import { CartWidget } from "./Components/CartWidget/CartWidget";
 import Formulario from "./Components/Form/Form";
 import NotFound from "./Components/NotFound/NotFound";
 import Footer from "./Components/Footer/Footer";
+import Home from "./Components/Home/Home";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
       <BrowserRouter>
         <NavBar />
         <Routes>
-          <Route path='/' element={<ItemListContainer presentation="All products" />}/>
+          <Route path='/home' element={<Home/>}/>
           <Route path='/black/:categoryId' element={<ItemListContainer presentation="Black Category" />}/>
           <Route path='/cian/:categoryId' element={<ItemListContainer presentation="Cian Category" />}/>
           <Route path='/white/:categoryId' element={<ItemListContainer presentation="White Category" />}/>

@@ -5,7 +5,7 @@ import {useParams} from 'react-router-dom';
 
 
 const ItemListContainer = ({ presentation }) => {
-/*   const [Item, setData] =useState ([]);
+  const [Item, setData] =useState ([]);
 
 
 const {categoryId} = useParams();
@@ -17,14 +17,14 @@ useEffect(() => {
     },3000)
   });
   if (categoryId){
-    getData.then(res => setData(res.filter => categoryId === categoryId));
+    getData.then(res => setData(res.filter(Item => categoryId === categoryId)))
   }else {
     getData.then(res => setData(res));
   }
   
 
-}, [Item])
- */
+},[Item])
+
 
 
   return (
