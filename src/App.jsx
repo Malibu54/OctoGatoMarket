@@ -20,7 +20,7 @@ function App() {
           <Route path='/cian/:categoryId' element={<ItemListContainer presentation="Cian Category" />}/>
           <Route path='/white/:categoryId' element={<ItemListContainer presentation="White Category" />}/>
           <Route path='/CartWidget' element={<CartWidget />}/>
-          <Route path='/Detail' element={{/* <ItemDetailContainer/> */}}/>
+          <Route path='/Detail/:detalleId' element={{/* <ItemDetailContainer/> */}}/>
           <Route path='/Contactanos' element={<Formulario/>}/>
           <Route path="*" element={<NotFound />} />
           <Route path="OctoGatoMarket" element={<NotFound />} />
