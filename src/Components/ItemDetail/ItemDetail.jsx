@@ -1,18 +1,17 @@
-import {getFirestore} from '../'
-import { useEffect } from "react";
-import React from 'react'
+import ItemCount from "../ItemCount/ItemCount";
 
 function ItemDetail() {
-  useEffect (() => {
-    const db =getFirestore();
-  
-    const ItemCollection = db.ItemCollection("items");
-    const item = ItemCollection.doc(itemId);
-  
-  })
   return (
-    <div>ItemDetail</div>
-  )
+    <div className="container">
+    <div className="detail">
+    <img className="detail__img" src={detail.imgurl} alt=""/>
+    <div className="content">
+    <h1>{detail.title}</h1>
+        <ItemCount />
+    </div>
+    </div>
+    </div>
+  );
 }
 
-export default ItemDetail
+export default ItemDetail;
