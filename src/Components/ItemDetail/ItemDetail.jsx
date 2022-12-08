@@ -2,6 +2,7 @@ import ItemCount from "../ItemCount/ItemCount";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
+
 function ItemDetail() {
 
 const [goToCart, setGoToCart] = useState(false);

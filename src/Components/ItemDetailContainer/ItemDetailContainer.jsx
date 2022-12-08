@@ -1,13 +1,12 @@
 import {useParams} from 'react-router-dom';
-
-
 import { useEffect, useState } from "react";
-import ItemList from "../../ItemList/ItemList";
+import ItemList from '../ItemList/ItemList';
+import Item from '../Item/Item';
 
 
 
 const ItemListContainer = ({ presentation }) => {
-  const [Item, setProductList] = useState([]);
+  const [item, setProductList] = useState([]);
   const {detailId} = useParams();
 
   useEffect(() => {
