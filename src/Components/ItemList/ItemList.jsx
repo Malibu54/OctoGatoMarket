@@ -23,7 +23,7 @@ const ItemList = ({ lista }) =>  {
             id={product.id}
             title={product.title}
             price={product.price}
-            image={product.pictureUrl}
+            pictureUrl={product.pictureUrl}
             category={product.category} /> 
       </Link>
     ))
