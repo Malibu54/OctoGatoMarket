@@ -1,9 +1,7 @@
-import "./Style.css";
-import React, { useEffect, useState } from "react";
-import Item from "../Item/Item";
-import ItemList from "../ItemList/ItemList";
 
-const octoCats = [
+
+
+/* const octoCats = [
   {
     id: "001",
     title: "Gato 1",
@@ -44,29 +42,37 @@ const octoCats = [
     description: "lorem ipsum dolor sit ",
     category: "Category Black",
   },
-];
+]; */
 
-const ItemListContainer = ({ presentation }) => {
-  const [data, setData] = useState([]);
+import data from "../mockdata";
+import { useEffect, useState } from "react";
+import ItemList from "../ItemList/ItemList";
+import { useParams } from "react-router-dom";
+import "./Style.css";
+
+
+const ItemListContainer = ({ greeting }) => {
+  const [productList, setProductList] = useState([]);
+  const { categoryName } = useParams(); 
+  console.log(categoryName);
 
   useEffect(() => {
-    const getData = new Promise(resolve => {
-      setTimeout(() => {
-        resolve(octoCats);
-      }, 3000);
+    getProducts.then((response) => {
+      setProductList(response);
     });
-
-    getData.then(res => setData);
   }, []);
+
+  const getProducts = new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve(data);
+    }, 2000);
+  });
 
   return (
     <>
-      <h1>{presentation}</h1>
-        <Item/>
-      <ItemList data={data} />
+      <ItemList lista={productList} />{" "}
     </>
   );
 };
 
 export default ItemListContainer;
-

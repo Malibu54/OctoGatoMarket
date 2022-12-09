@@ -1,6 +1,5 @@
 .footer__container {
-  display: flex;
-  justify-content: space-between;
+  display: inline; 
   align-items: center;
   background-color:#654db0;
 }
