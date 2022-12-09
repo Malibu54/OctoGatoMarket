@@ -6,7 +6,7 @@ function Item(props) {
     <div className="ContenedorCard">
     <div className="card">
       <div className="card-img">
-        <img src={props.imgurl} alt={props.title} />
+        <img src={props.pictureUrl} alt={props.title} />
       </div>
    <div className="card-detail">
         <h3>{props.title}</h3>
