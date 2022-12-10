@@ -10,9 +10,8 @@ function Item(props) {
       </div>
    <div className="card-detail">
         <h3>{props.title}</h3>
-        <span>{props.description}</span>
         <p>U$D {props.price}</p>
-        <span>{props.category}</span>
+        <span>{props.categoryId}</span>
       </div>
       <ItemCount />
     </div>

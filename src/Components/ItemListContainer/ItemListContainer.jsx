@@ -15,11 +15,11 @@ const ItemListContainer = ({ presentation }) => {
       setProductList(response);
     });
     if (categoryId) {
-      getProducts.then(res => setProductList(res.filter(categoryId.id === categoryId)));
+      getProducts.then(res => setProductList(res.filter((element)=> element.category === categoryId)));
     }else{
       getProducts.then(res => setProductList(res))
     }
-  }, [categoryId]);
+  },[categoryId]);
 
   const getProducts = new Promise((resolve, reject) => {
     setTimeout(() => {
