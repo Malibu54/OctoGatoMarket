@@ -6,7 +6,7 @@ import "./Style.css";
 
 
 const ItemListContainer = ({ presentation }) => {
-  const [productList, setProductList, ] = useState([]);
+  const [productList, setProductList] = useState([]);
   const { categoryId } = useParams(); 
   console.log(categoryId);
 
@@ -15,7 +15,7 @@ const ItemListContainer = ({ presentation }) => {
       setProductList(response);
     });
     if (categoryId) {
-      getProducts.then(res => setProductList(res.filter((element) => element.category ===categoryId)));
+      getProducts.then(res => setProductList(res.filter(categoryId.id === categoryId)));
     }else{
       getProducts.then(res => setProductList(res))
     }
