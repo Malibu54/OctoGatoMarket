@@ -18,7 +18,7 @@ const data = [{
         title: "Gato 3",
         price: '$300',
         category: "White",
-        pictureUrl: 'https://cdn.freebiesupply.com/logos/large/2x/github-octocat-logo-black-and-white.png'
+        pictureUrl: 'https://cdn-icons-png.flaticon.com/512/38/38292.png'
     },
     {
         id: "003",
