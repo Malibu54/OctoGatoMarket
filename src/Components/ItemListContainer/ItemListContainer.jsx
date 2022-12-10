@@ -19,7 +19,7 @@ const ItemListContainer = ({ presentation }) => {
     }else{
       getProducts.then(res => setProductList(res))
     }
-  }, []);
+  }, [categoryId]);
 
   const getProducts = new Promise((resolve, reject) => {
     setTimeout(() => {
