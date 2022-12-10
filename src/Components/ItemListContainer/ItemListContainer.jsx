@@ -1,7 +1,3 @@
-
-
-
-
 import data from "../mockdata";
 import { useEffect, useState } from "react";
 import ItemList from "../ItemList/ItemList";
