@@ -11,20 +11,27 @@ import "./Style.css";
 
 const ItemListContainer = ({ presentation }) => {
   const [productList, setProductList] = useState([]);
-  const { categoryName } = useParams(); 
-  console.log(categoryName);
+  const { categoryId } = useParams(); 
+  console.log(categoryId);
 
   useEffect(() => {
     getProducts.then((response) => {
       setProductList(response);
     });
+    if (categoryId) {
+      getProducts.then(res => setProductList(res.filter(categoryId.id === categoryId)));
+    }else{
+      getProducts.then(res => setProductList(res))
+    }
   }, []);
 
   const getProducts = new Promise((resolve, reject) => {
     setTimeout(() => {
       resolve(data);
     }, 2000);
-  });
+  }
+  );
+    
 
   return (
     <>
