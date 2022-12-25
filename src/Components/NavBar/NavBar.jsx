@@ -18,13 +18,13 @@ function NavBar() {
         <Link to='/home' className={({ isActive }) => (isActive ? "violet" : "white")}>Home </Link>
         </li>
         <li className="nav-item">
-        <Link to='/black/black' className={({ isActive }) => (isActive ? "violet" : "white")}>Black</Link> 
+        <Link to='/black/:categoryId' className={({ isActive }) => (isActive ? "violet" : "white")}>Black</Link> 
         </li>
         <li className="nav-item">
-        <Link to='/cian/cian' className={({ isActive }) => (isActive ? "violet" : "white")}>Cian</Link>  
+        <Link to='/cian/categoryId' className={({ isActive }) => (isActive ? "violet" : "white")}>Cian</Link>  
         </li>
         <li className="nav-item">
-        <Link to='/white/white' className={({ isActive }) => (isActive ? "violet" : "white")}>White</Link>  
+        <Link to='/white/categoryId' className={({ isActive }) => (isActive ? "violet" : "white")}>White</Link>  
         </li>
         <li className="nav-item">
         <Link to='/Contactanos' className={({ isActive }) => (isActive ? "violet" : "white")}>Contactanos</Link>  

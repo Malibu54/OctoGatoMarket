@@ -1,9 +1,14 @@
 import ItemCount from "../ItemCount/ItemCount";
 import "./Style.css";
+import { Link } from "react-router-dom";
+
+
 
 function Item(props) {
+
+
   return (
-    <div className="ContenedorCard">
+   <div className="ContenedorCard">
     <div className="card">
       <div className="card-img">
         <img src={props.pictureUrl} alt={props.title} />
