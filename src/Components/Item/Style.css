@@ -15,7 +15,7 @@
   margin:10px;
   padding:10px;
   background-color:#8884c8;
-  
+  padding: 1px 8px;
   color:black;
 }
 
@@ -25,10 +25,10 @@
 }
 
 .card-detail {
-  padding: 12px 8px;
-  display:flex;
   justify-content:space-between;
   flex-wrap:wrap;
+  padding: 1px 8px;
+  display:flex; 
 }
 
 .ContenedorCard{
@@ -37,6 +37,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+  padding: 18px 18px;
 }
 
 

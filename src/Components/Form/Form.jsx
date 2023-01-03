@@ -48,7 +48,7 @@ function Formulario() {
         No estoy segurx
         <br />
         <br />
-        <label>Sugerencias?</label>
+        <label>¿Sugerencias?</label>
         <br />
         <textarea
           id="comments"

@@ -1,11 +1,12 @@
-import ItemCount from "../ItemCount/ItemCount";
+
 import "./Style.css";
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"
+
 
 
 
 function Item(props) {
-
+let urlCat = `/item/${props.id}`
 
   return (
    <div className="ContenedorCard">
@@ -17,8 +18,9 @@ function Item(props) {
         <h3>{props.title}</h3>
         <p>U$D {props.price}</p>
         <span>{props.categoryId}</span>
+        <Link to={urlCat}>Show me</Link>
       </div>
-      <ItemCount />
+
     </div>
     </div>
   );

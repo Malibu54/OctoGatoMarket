@@ -1,4 +1,3 @@
-import data from "../mockdata"
 import React from "react"
 import ItemCount from "../ItemCount/ItemCount"
 import { Link } from "react-router-dom"
@@ -14,7 +13,7 @@ const ItemDetail = ({ data }) => {
   
   return (
     <div className='item'>
-            <img src={data.pictureUrl} alt="img" />
+            <img src= {data.pictureUrl} alt="img" />
             <h2>{data.title}</h2>
             <h3>${data.price}</h3>
             {

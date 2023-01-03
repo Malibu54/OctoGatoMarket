@@ -1,28 +1,27 @@
-import data from "../mockdata";
+import React from "react";
 import { useEffect, useState } from "react";
-import ItemList from "../ItemList/ItemList";
+import ItemDetail from "../ItemDetail/ItemDetail";
+import {getSingleCat } from "../../Firebase/config";
+import { useParams } from "react-router-dom";
 
-const ItemListContainer = ({ presentation }) => {
-  const [productList, setProductList] = useState([]);
+const ItemDetailContainer = ({ presentation }) => {
+  const [product, setProduct] = useState([]);
+let {catId} = useParams()
 
   useEffect(() => {
-    getProducts.then((response) => {
-      setProductList(response);
-    });
-  }, []);
-
-  const getProducts = new Promise((resolve, reject) => {
-    setTimeout(() => {
-      resolve(data);
-    }, 99999999999999999);
-  });
+    getSingleCat (catId)
+    .then((res) =>{
+      setProduct(res)
+    }
+    );
+  },[catId]);
 
   return (
     <>
       <h1>{presentation}</h1>
-      <ItemList lista={productList} />{" "}
+      <ItemDetail product={product} />{" "}
     </>
   );
 };
 
-export default ItemListContainer;
+export default ItemDetailContainer;
