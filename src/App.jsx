@@ -24,7 +24,7 @@ function App() {
           <Route path='/CartWidget' element={<CartWidget />}/>
           <Route path='/item/:catId' element={<ItemDetailContainer /> }/>
           <Route path='/Contactanos' element={<Formulario />}/>
-          <Route path="*" element={<NotFound />} />
+          <Route path='*' element={<NotFound />} />
           <Route path="OctoGatoMarket" element={<NotFound />} />
         </Routes>
         </CartProvider>

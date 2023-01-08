@@ -38,7 +38,7 @@ body::before {
       rgba(136, 136, 206, 0.7)
     ),
     url(https://besthqwallpapers.com/Uploads/8-1-2021/150742/thumb2-github-violet-logo-4k-violet-brickwall-github-logo-social-networks.jpg);
-    background-size: cover;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
