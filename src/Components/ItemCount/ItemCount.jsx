@@ -2,7 +2,8 @@ import { useState } from "react";
 import "./Style.css";
 
 const ItemCount = () => {
-  const [count, setCount] = useState(0);
+  const [count, setCount, , setGoToCart] = useState(0);
+ 
 
   const decrease = () => {
     setCount((count) => Math.max(count - 1, 0));
@@ -12,6 +13,11 @@ const ItemCount = () => {
     setCount(count + 1);
   };
 
+  const onAdd = (quantity) => {
+    setGoToCart(true);
+  };
+
+  
   return (
     <div className="counter">
       <button key={count} onClick={decrease}>
@@ -21,7 +27,11 @@ const ItemCount = () => {
       <button key={count >= 1} onClick={increase}>
         +
       </button>
-
+      <div>
+        <button onAdd={onAdd}>
+          Add to cart
+        </button>
+      </div>
     </div>
   );
 };
