@@ -20,8 +20,13 @@ const ItemDetail = ({ product }) => {
       {goToCart ? (
         <Link to="/cartWidget">Finalizar Compra</Link>
       ) : (
-        <ItemCount initial={3} stock={5} onAdd={onAdd} />
+        <ItemCount  />
       )}
+      <div>
+        <button onAdd={onAdd}>
+          Add to cart
+        </button>
+      </div>
     </div>
   );
 };

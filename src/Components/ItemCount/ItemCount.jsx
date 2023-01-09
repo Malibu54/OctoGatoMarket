@@ -21,11 +21,7 @@ const ItemCount = () => {
       <button key={count >= 1} onClick={increase}>
         +
       </button>
-      <div>
-        <button>
-          Add to cart
-        </button>
-      </div>
+
     </div>
   );
 };
