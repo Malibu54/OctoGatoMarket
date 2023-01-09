@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { CartWidget } from "../CartWidget/CartWidget";
 import "./Style.css";
 
 const ItemCount = () => {
@@ -24,7 +23,7 @@ const ItemCount = () => {
       </button>
       <div>
         <button>
-          <CartWidget />
+          Add to cart
         </button>
       </div>
     </div>

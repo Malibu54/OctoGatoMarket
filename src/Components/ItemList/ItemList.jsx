@@ -1,6 +1,5 @@
 import Item from "../Item/Item";
 import { Link } from "react-router-dom";
-
 const ItemList = ({ lista }) => {
   return (
     <div>
@@ -8,7 +7,7 @@ const ItemList = ({ lista }) => {
         <Link key={product.id} to={"/black/" + product.id}>
           <Item
             className="itemlist"
-            key={product.id}
+            id={product.id}
             title={product.title}
             price={product.price}
             pictureUrl={product.pictureUrl}
