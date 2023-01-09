@@ -5,10 +5,10 @@ const ItemList = ({ lista }) => {
   return (
     <div>
       {lista.map((product) => (
-        <Link id={product.id} to={"/black/" + product.id}>
+        <Link key={product.id} to={"/black/" + product.id}>
           <Item
             className="itemlist"
-            id={product.id}
+            key={product.id}
             title={product.title}
             price={product.price}
             pictureUrl={product.pictureUrl}

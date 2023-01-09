@@ -3,7 +3,7 @@ import ItemCount from "../ItemCount/ItemCount";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
-const ItemDetail = ({ data }) => {
+const ItemDetail = ({ product }) => {
   const [goToCart, setGoToCart] = useState(false);
 
   const onAdd = (quantity) => {
@@ -12,9 +12,9 @@ const ItemDetail = ({ data }) => {
 
   return (
     <div className="item">
-      <img src={data.pictureUrl} alt="img" />
-      <h2>{data.title}</h2>
-      <h3>${data.price}</h3>
+      <img src={product.pictureUrl} alt="img" />
+      <h2>{product.title}</h2>
+      <h3>${product.price}</h3>
       {goToCart ? (
         <Link to="/cartWidget">Finalizar Compra</Link>
       ) : (
