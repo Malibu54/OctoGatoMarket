@@ -3,7 +3,7 @@ import React, { useState, useContext } from "react";
 const CartContext = React.createContext([]);
 export const useCartContext = () => useContext(CartContext);
 
-const CartProvider = ({ children }) => {
+const CartProvider = ({ onAdd }) => {
   const [cart, setCart] = useState([]);
 
   const clearCart = () => setCart([]);
@@ -31,7 +31,7 @@ const CartProvider = ({ children }) => {
     <CartContext.Provider
       value={{ clearCart, isInCart, removeProduct, addProduct }}
     >
-      {children}
+      {onAdd}
     </CartContext.Provider>
   );
 };

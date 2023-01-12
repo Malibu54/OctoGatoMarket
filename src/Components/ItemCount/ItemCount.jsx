@@ -28,7 +28,7 @@ const ItemCount = () => {
         +
       </button>
       <div>
-        <button onAdd={onAdd}>
+        <button onAdd={()=> onAdd(count)}>
           Add to cart
         </button>
       </div>
