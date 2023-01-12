@@ -27,6 +27,7 @@ const CartProvider = ({ children }) => {
       setCart([...cart, { ...item, quantity }]);
     }
   };
+  console.log(cart)
   return (
     <CartContext.Provider
       value={{ clearCart, isInCart, removeProduct, addProduct }}
@@ -35,5 +36,4 @@ const CartProvider = ({ children }) => {
     </CartContext.Provider>
   );
 };
-
 export default CartProvider;
