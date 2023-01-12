@@ -8,7 +8,7 @@ import Formulario from "./Components/Form/Form";
 import NotFound from "./Components/NotFound/NotFound";
 import Footer from "./Components/Footer/Footer";
 import React from "react";
-import { CartProvider } from "./Context/CartContext";
+import CartProvider  from "./Context/CartContext";
 
 function App() {
   return (
