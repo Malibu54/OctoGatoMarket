@@ -17,7 +17,7 @@ const ItemCart =({product}) => {
         <p>Price: {product.quantity * product.price}</p>
         <button onClick={() => removeProduct (product.id)}>Clear Cart</button>
         <span className="more__cats">
-        <Link to="/">  <button>Buy more cats</button></Link>  
+        <Link to="/">  <button>Continue shopping</button></Link>  
         </span>
         </div>
     </div>

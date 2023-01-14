@@ -21,7 +21,7 @@ const ItemDetail = ({ product }) => {
       <h3>${product.price}</h3>
       {goToCart ? (
         <span className="cart__detail">
-        <Link to="/Cart"><button>Show me cart detail</button></Link>
+        <Link to="/Cart"><button>View List</button></Link>
         </span>
       ) : (
         <ItemCount onAdd={onAdd}/>

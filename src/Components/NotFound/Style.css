@@ -5,8 +5,8 @@ h1{
 }
 
 .cat{
-    text-align: center; 
-    margin: auto;
+    align-items: center; 
     display: block;
-    width: 60%;
+    width: 200px;
+    margin-right: 1rem;
 }

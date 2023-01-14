@@ -1,14 +1,18 @@
+
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
+import Cart from "./Components/Cart/Cart";
+import CheckOut from "./Components/CheckOut/CheckOut";
+import Footer from "./Components/Footer/Footer";
+import Formulario from "./Components/Form/Form";
 import ItemListContainer from "./Components/ItemListContainer/ItemListContainer";
 import NavBar from "./Components/NavBar/NavBar";
 import ItemDetailContainer from "./Components/ItemDetailContainer/ItemDetailContainer";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Formulario from "./Components/Form/Form";
 import NotFound from "./Components/NotFound/NotFound";
-import Footer from "./Components/Footer/Footer";
-import React from "react";
 import CartProvider  from "./Context/CartContext";
-import Cart from "./Components/Cart/Cart";
+
+
 
 function App() {
   return (
@@ -27,6 +31,7 @@ function App() {
             <Route path="/Contactanos" element={<Formulario />} />
             <Route path="*" element={<NotFound />} />
             <Route path="OctoGatoMarket" element={<NotFound />} />
+            <Route path="CheckOut" element={<CheckOut />} />
           </Routes>
           <Footer />
         </BrowserRouter>

@@ -6,7 +6,7 @@ export const CartWidget = () => {
   return (
       <Link to="/Cart">
       <>
-      <i className="bi bi-cart-check-fill"></i>
+      <i className="bi bi-cart-check-fill">Cart </i>
       <span>{totalProducts() || ''}</span>
       </>
     </Link>
