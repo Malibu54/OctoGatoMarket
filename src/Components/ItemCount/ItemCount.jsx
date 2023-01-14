@@ -1,8 +1,10 @@
 import { useState } from "react";
 import "./Style.css";
+import { useCartContext } from "../../Context/CartContext";
 
 const ItemCount = ({ onAdd })=> {
   const [count, setCount,] = useState(0);
+  const {addProduct} = useCartContext(0);
  
 
   const decrease = () => {
@@ -23,7 +25,7 @@ const ItemCount = ({ onAdd })=> {
         +
       </button>
       <div>
-        <button onClick={() => onAdd(count)}>
+        <button onClick={() => onAdd (count)} >
           Add to cart
         </button>
       </div>

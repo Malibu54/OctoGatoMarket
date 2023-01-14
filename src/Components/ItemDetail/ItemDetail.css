@@ -10,11 +10,11 @@
     margin-right: 1rem;
 }
 
-.more__cats{
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 4px 4px;
-  text-decoration: none;
-  margin: 10px;
-}
+.cart__detail{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 4px 4px;
+    text-decoration: none;
+    margin: 10px;
+  }

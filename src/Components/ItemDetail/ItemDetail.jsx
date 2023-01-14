@@ -15,12 +15,14 @@ const ItemDetail = ({ product }) => {
   };
 
   return (
-    <div className="item">
+    <div className="itemCart">
       <img src={product.pictureUrl} alt="img" />
       <h2>{product.title}</h2>
       <h3>${product.price}</h3>
       {goToCart ? (
-        <Link to="/cartWidget">Finalizar Compra</Link>
+        <span className="cart__detail">
+        <Link to="/Cart"><button>Show me cart detail</button></Link>
+        </span>
       ) : (
         <ItemCount onAdd={onAdd}/>
       )}
