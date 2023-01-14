@@ -1,5 +1,10 @@
-.footer__container {
-  display: inline; 
-  align-items: center;
-  background-color:#654db0;
+.footer {
+
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #654db0;
+  color: white;
+  text-align: center;
 }

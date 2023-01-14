@@ -1,10 +1,12 @@
+import { Link } from "react-router-dom";
 import "./Footer.css";
 
 export default function Footer() {
   return (
-    <footer className="footer__container">
-      <div className="author">OctoCatMarket</div>
-      <div className="copyright">All rights reserved &#169; 2022</div>
+    <footer className="footer">
+      <span> OctoCatMarket</span>
+      <span> All rights reserved &#169; 2022</span>
+      <Link to="/Policy">  <button>Terms & Conditions</button> </Link>
     </footer>
   );
 }

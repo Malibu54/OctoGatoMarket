@@ -16,9 +16,13 @@ const ItemDetail = ({ product }) => {
 
   return (
     <div className="itemCart">
+    
       <img src={product.pictureUrl} alt="img" />
-      <h2>{product.title}</h2>
-      <h3>${product.price}</h3>
+      <div className="item__description">
+      <h2><strong>Name: {product.title}</strong></h2>
+      <h3>Price ${product.price}</h3>
+      </div>
+      <div className="itemCount">
       {goToCart ? (
         <span className="cart__detail">
         <Link to="/Cart"><button>View List</button></Link>
@@ -26,6 +30,7 @@ const ItemDetail = ({ product }) => {
       ) : (
         <ItemCount onAdd={onAdd}/>
       )}
+      </div>
 
     </div>
   );

@@ -4,14 +4,16 @@ import { Link } from 'react-router-dom';
 import ItemCart from '../ItemCart/ItemCart';
 import "./Cart.css"
 
+
 const Cart = () => {
     const {cart, totalPrice} = useCartContext ();
 
     if (cart.length === 0) {
         return(
             <div className="items__later">
-                <p>No items saved for later 😞 </p>
-                <Link to="/">Back to home</Link>
+                <h1>No items saved for later 😞 </h1>
+           
+                <Link to="/"><button>Back to home</button></Link>
             </div>
         );
     }

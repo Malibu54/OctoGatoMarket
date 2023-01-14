@@ -1,12 +1,12 @@
-import cat_not_found from "./not_found_cat.jpg";
+import github__cat from "./github__cat.png";
+import "./Style.css"
 
 export default function NotFound() {
   return (
     <div className="not-found__container" area="content">
       <h1>Not Found Page</h1>
-      <span className="cat" >
-      <img src={cat_not_found} alt="cat" />   
-      </span>
-      </div>
+
+      <img src={github__cat} alt="cat_not_found" />
+    </div>
   );
 }

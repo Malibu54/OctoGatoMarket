@@ -6,3 +6,8 @@
     text-decoration: none;
     margin: 10px;
 }
+
+.items__later img{
+    width: 200px;
+    border-radius: 10px;
+}

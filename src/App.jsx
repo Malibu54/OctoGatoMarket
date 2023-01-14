@@ -11,6 +11,7 @@ import NavBar from "./Components/NavBar/NavBar";
 import ItemDetailContainer from "./Components/ItemDetailContainer/ItemDetailContainer";
 import NotFound from "./Components/NotFound/NotFound";
 import CartProvider  from "./Context/CartContext";
+import Policy from "./Components/Conditions&Terms/Policy";
 
 
 
@@ -20,6 +21,7 @@ function App() {
       <CartProvider>
         <BrowserRouter>
           <NavBar />
+          <h1>.</h1>
           <Routes>
             <Route path="/" element={<ItemListContainer />} />
             <Route
@@ -32,6 +34,7 @@ function App() {
             <Route path="*" element={<NotFound />} />
             <Route path="OctoGatoMarket" element={<NotFound />} />
             <Route path="CheckOut" element={<CheckOut />} />
+            <Route path="Policy" element={<Policy />} />
           </Routes>
           <Footer />
         </BrowserRouter>

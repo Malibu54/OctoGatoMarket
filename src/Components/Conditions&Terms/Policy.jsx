@@ -3,7 +3,7 @@ import React from "react";
 function Policy() {
   return (
     <span>
-      <h2 className="title"> Términos y Condiciones de Uso </h2>
+      <h1 className="title"> Términos y Condiciones de Uso </h1>
       <p>
         <span>
           <strong>INFORMACIÓN RELEVANTE</strong>
@@ -39,33 +39,43 @@ function Policy() {
         En algunos casos puede que se requiera una verificación por medio de
         correo electrónico. Los precios de los productos ofrecidos en esta
         Tienda Online es válido solamente en las compras realizadas en este
-        sitio web.
+        sitio web. </p>
         <span>
-          <strong>LICENCIA </strong>
+          <p>
+            <strong>LICENCIA </strong>
+          </p>
         </span>
+        <p>
         A través de su sitio web concede una licencia para que los usuarios
         utilicen los productos que son vendidos en este sitio web de acuerdo a
         los Términos y Condiciones que se describen en este documento.
+        </p>
+     
+      <span>
+        <p>
+          <strong>USO NO AUTORIZADO</strong>
+        </p>
+      </span>
+      <p>
+        En caso de que aplique (para venta de software, templetes, u otro
+        producto de diseño y programación) usted no puede colocar uno de
+        nuestros productos, modificado o sin modificar, en un CD, sitio web o
+        ningún otro medio y ofrecerlos para la redistribución o la reventa de
+        ningún tipo
+        <strong> Octo Cat Market Inc. </strong>Usted no puede declarar propiedad
+        intelectual o exclusiva a ninguno de nuestros productos, modificado o
+        sin modificar. Todos los productos son propiedad de los proveedores del
+        contenido. En caso de que no se especifique lo contrario, nuestros
+        productos se proporcionan sin ningún tipo de garantía, expresa o
+        implícita. En ningún esta compañía será responsables de ningún daño
+        incluyendo, pero no limitado a, daños directos, indirectos, especiales,
+        fortuitos o consecuentes u otras pérdidas resultantes del uso o de la
+        imposibilidad de utilizar nuestros productos.
       </p>
       <span>
-        {" "}
-        <strong>USO NO AUTORIZADO</strong>{" "}
-      </span>
-      En caso de que aplique (para venta de software, templetes, u otro producto
-      de diseño y programación) usted no puede colocar uno de nuestros
-      productos, modificado o sin modificar, en un CD, sitio web o ningún otro
-      medio y ofrecerlos para la redistribución o la reventa de ningún tipo
-      <strong> Octo Cat Market Inc. </strong>Usted no puede declarar propiedad
-      intelectual o exclusiva a ninguno de nuestros productos, modificado o sin
-      modificar. Todos los productos son propiedad de los proveedores del
-      contenido. En caso de que no se especifique lo contrario, nuestros
-      productos se proporcionan sin ningún tipo de garantía, expresa o
-      implícita. En ningún esta compañía será responsables de ningún daño
-      incluyendo, pero no limitado a, daños directos, indirectos, especiales,
-      fortuitos o consecuentes u otras pérdidas resultantes del uso o de la
-      imposibilidad de utilizar nuestros productos.
-      <span>
-        <strong>POLÍTICA DE REEMBOLSO Y GARANTÍA</strong>
+        <p>
+          <strong>POLÍTICA DE REEMBOLSO Y GARANTÍA</strong>
+        </p>
       </span>
       <p>
         En el caso de productos que sean mercancías irrevocables no-tangibles,

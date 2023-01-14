@@ -12,9 +12,8 @@ function Item(props) {
         </div>
         <div className="card-detail">
           <h3>{props.title}</h3>
-          <p>U$D {props.price}</p>
-          <span>{props.categoryId}</span>
-          <Link to={urlCat}>Show me</Link>
+          <span>Category: {props.categoryId}</span>
+          <Link to={urlCat}>Show detail</Link>
         </div>
       </div>
     </div>

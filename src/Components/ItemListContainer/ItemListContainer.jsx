@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 import "./Style.css";
 import { getAllItems, getAllCategory } from "../../Firebase/config";
 
-const ItemListContainer = ({ presentation }) => {
+const ItemListContainer = () => {
   const [productList, setProductList] = useState([]);
   const { categoryId } = useParams();
 
@@ -21,7 +21,7 @@ const ItemListContainer = ({ presentation }) => {
   }, [categoryId]);
   return (
     <>
-      <h1>{presentation}</h1>
+     
       <ItemList lista={productList} />{" "}
     </>
   );
