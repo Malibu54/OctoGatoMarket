@@ -14,7 +14,7 @@ function NavBar() {
           <ul className="navbar-nav mr-auto">
             <li className="nav-item active">
               <Link
-                to="/home"
+                to="/"
                 className={({ isActive }) => (isActive ? "violet" : "white")}
               >
                 Home{" "}
@@ -56,10 +56,10 @@ function NavBar() {
               </Link>
             </li>
             <li>
-              <Link to="/CartWidget">
-                <button>
+              <Link to="/Cart">
+               
                   <CartWidget />
-                </button>
+                
               </Link>
             </li>
           </ul>
