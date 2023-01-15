@@ -1,11 +1,8 @@
 import { useState } from "react";
 import "./Style.css";
 
-
-const ItemCount = ({ onAdd })=> {
-  const [count, setCount,] = useState(0);
-
- 
+const ItemCount = ({ onAdd }) => {
+  const [count, setCount] = useState(0);
 
   const decrease = () => {
     setCount((count) => Math.max(count - 1, 0));
@@ -25,9 +22,7 @@ const ItemCount = ({ onAdd })=> {
         +
       </button>
       <div>
-        <button onClick={() => onAdd (count)} >
-          Add to cart
-        </button>
+        <button onClick={() => onAdd(count)}>Add to cart</button>
       </div>
     </div>
   );

@@ -8,19 +8,19 @@ function Formulario() {
       <p className="description">We appreciate your interest</p>
       <form className="survey-form">
         <label className="name-label">
-          Name 
+          Name
           <br />
           <input className="name" type="text" placeholder="Name" required />
         </label>
         <br />
         <label className="email-label">
-          E-mail 
+          E-mail
           <br />
           <input className="email" type="email" placeholder="E-mail" required />
         </label>
         <br />
         <label className="number-label">
-          Age 
+          Age
           <br />
           <input
             id="number"
@@ -35,9 +35,13 @@ function Formulario() {
         <br />
         <br />
         <label>
-        Would you recommend our store?
+          Would you recommend our store?
           <br />
-          <input type="radio" className="indoor-outdoor" defaultValue="Definitely" />
+          <input
+            type="radio"
+            className="indoor-outdoor"
+            defaultValue="Definitely"
+          />
           Definitely
         </label>
         <br />

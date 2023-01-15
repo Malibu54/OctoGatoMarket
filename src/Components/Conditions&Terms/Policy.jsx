@@ -39,18 +39,19 @@ function Policy() {
         En algunos casos puede que se requiera una verificación por medio de
         correo electrónico. Los precios de los productos ofrecidos en esta
         Tienda Online es válido solamente en las compras realizadas en este
-        sitio web. </p>
-        <span>
-          <p>
-            <strong>LICENCIA </strong>
-          </p>
-        </span>
+        sitio web.{" "}
+      </p>
+      <span>
         <p>
+          <strong>LICENCIA </strong>
+        </p>
+      </span>
+      <p>
         A través de su sitio web concede una licencia para que los usuarios
         utilicen los productos que son vendidos en este sitio web de acuerdo a
         los Términos y Condiciones que se describen en este documento.
-        </p>
-     
+      </p>
+
       <span>
         <p>
           <strong>USO NO AUTORIZADO</strong>

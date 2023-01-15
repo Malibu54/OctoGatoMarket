@@ -1,5 +1,5 @@
 import github__cat from "./github__cat.png";
-import "./Style.css"
+import "./Style.css";
 
 export default function NotFound() {
   return (
