@@ -1,0 +1,20 @@
+.order__purchase {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 4px 4px;
+  text-decoration: none;
+  margin: 10px;
+}
+
+strong {
+  color:blue;
+}
+
+img {
+    align-items: center;
+    display: block;
+    width: 188px;
+    margin: auto;
+  }
+  

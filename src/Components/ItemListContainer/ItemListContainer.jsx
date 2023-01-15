@@ -19,6 +19,7 @@ const ItemListContainer = () => {
       });
     }
   }, [categoryId]);
+
   return (
     <>
       <ItemList lista={productList} />{" "}

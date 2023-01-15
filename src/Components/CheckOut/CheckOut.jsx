@@ -1,6 +1,7 @@
 import React from "react";
 import { addDoc, getFirestore, collection } from "firebase/firestore";
 import { useCartContext } from "../../Context/CartContext";
+import { Link } from "react-router-dom";
 
 function CheckOut() {
   const { cart, totalPrice } = useCartContext();
@@ -26,7 +27,7 @@ function CheckOut() {
     const ordersCollection = collection(db, "orders");
     addDoc(ordersCollection, order).then(({ id }) => console.log(id));
   };
-  return <button onClick={handledClick}>Confirm your order</button>;
+  return <Link to="/Order"> <button onClick={handledClick}>Confirm your purchase order</button></Link>
 }
 
 export default CheckOut;

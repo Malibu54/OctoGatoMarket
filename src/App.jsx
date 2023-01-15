@@ -11,6 +11,7 @@ import NotFound from "./Components/NotFound/NotFound";
 import CartProvider from "./Context/CartContext";
 import Policy from "./Components/Conditions&Terms/Policy";
 import CheckOut from "./Components/CheckOut/CheckOut";
+import Order from "./Components/Order/Order";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
             <Route path="*" element={<NotFound />} />
             <Route path="OctoGatoMarket" element={<NotFound />} />
             <Route path="/CheckOut" element={<CheckOut />} />
+            <Route path="/Order" element={<Order />} />
             <Route path="Policy" element={<Policy />} />
           </Routes>
           <Footer />
