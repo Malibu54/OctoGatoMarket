@@ -1,9 +1,11 @@
 import React from 'react'
 import "./CheckOut.css"
+import { useCartContext } from '../../Context/CartContext'
+
 
 function CheckOut() {
   return (
-    <div>CheckOut</div>
+    <button>CheckOut</button>
   )
 }
 
