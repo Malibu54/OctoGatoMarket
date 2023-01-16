@@ -24,9 +24,9 @@
 Files extension are .jsx for components, and for its style .css
 
 ## Flow
-
-![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
-
+<p align="center">
+<img src="https://myoctocat.com/assets/images/base-octocat.svg" alt="octocat__explained"/>
+</p>
 
 
 
