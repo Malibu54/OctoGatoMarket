@@ -31,7 +31,7 @@ function App() {
             <Route path="*" element={<NotFound />} />
             <Route path="OctoGatoMarket" element={<NotFound />} />
             <Route path="/CheckOut" element={<CheckOut />} />
-            <Route path="/Order" element={<Order />} />
+            <Route path="/Order/:id" element={<Order />} />
             <Route path="Policy" element={<Policy />} />
           </Routes>
           <Footer />

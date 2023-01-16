@@ -1,10 +1,12 @@
-import React from "react";
+import React,{useState} from "react";
 import { addDoc, getFirestore, collection } from "firebase/firestore";
 import { useCartContext } from "../../Context/CartContext";
 import { Link } from "react-router-dom";
+import bit_octocat from "../Order/bit_octocat.png";
 
 function CheckOut() {
   const { cart, totalPrice } = useCartContext();
+  const [orderID, setOrderID]= useState('')
 
   const order = {
     buyer: {
@@ -25,9 +27,19 @@ function CheckOut() {
   const handledClick = () => {
     const db = getFirestore();
     const ordersCollection = collection(db, "orders");
-    addDoc(ordersCollection, order).then(({ id }) => console.log(id));
+    addDoc(ordersCollection, order).then(({ id }) => setOrderID(id));
   };
-  return <Link to="/Order"> <button onClick={handledClick}>Confirm your purchase order</button></Link>
+  return (
+    <>
+    {orderID ?  <div className="order__purchase">
+      <h2>
+        Your purchase order is <strong>{orderID}</strong>
+      </h2>
+      <p>Thank you for your purchase</p>
+      <Link to="/"><img src={bit_octocat} alt="bit_octocat" /></Link>
+    </div>: <button onClick={handledClick}>Confirm your purchase order</button>}
+    </>
+  )
 }
 
 export default CheckOut;
