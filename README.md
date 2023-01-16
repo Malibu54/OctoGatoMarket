@@ -1,4 +1,24 @@
+### This project is composed of 17 components
 
+-Cart
+-CartWidget
+-Conditions&Terms
+-Footer
+-Form (formulario de contacto)
+-Item
+-ItemCart
+-ItemCount
+-ItemDetail
+-ItemDetailContainer
+-ItemList
+-ItemListContainer
+-NavBar
+-NotFound
+-Order
+-Context
+-Firebase
+
+## How works?
 # Getting Started with Create React App 
 
 ### `This project is a market when you can sell your octocats`
