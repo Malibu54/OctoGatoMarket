@@ -1,4 +1,8 @@
 ### `This project is a market when you can sell your octocats`
+<p align="center">
+<img src="https://myoctocat.com/assets/images/base-octocat.svg" alt="octocat__explained"/>
+</p>
+
 
 ### This project is composed of 17 components
 ```
@@ -24,9 +28,7 @@
 Files extension are .jsx for components, and for its style .css
 
 ## Flow
-<p align="center">
-<img src="https://myoctocat.com/assets/images/base-octocat.svg" alt="octocat__explained"/>
-</p>
+
 
 
 
