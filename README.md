@@ -2,35 +2,33 @@
 
 ### This project is composed of 17 components
 
--Cart
--CartWidget
--Conditions&Terms
--Footer
--Form (formulario de contacto)
--Item
--ItemCart
--ItemCount
--ItemDetail
--ItemDetailContainer
--ItemList
--ItemListContainer
--NavBar
--NotFound
--Order
--Context
--Firebase
+#Cart
+#CartWidget
+#Conditions&Terms
+#Footer
+#Form (contact form)
+#Item
+#ItemCart
+#ItemCount
+#ItemDetail
+#ItemDetailContainer
+#ItemList
+#ItemListContainer
+#NavBar
+#NotFound
+#Order
+#Context
+#Firebase
 
 Files extension are .jsx for components, and for its style .css
 
 ## How works?
 
-
-# Getting Started with Create React App 
-
-
+# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 React Version 18.2.0
+
 ## Available Scripts
 
 In the project directory, you can run:
