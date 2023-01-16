@@ -1,3 +1,5 @@
+### `This project is a market when you can sell your octocats`
+
 ### This project is composed of 17 components
 
 -Cart
@@ -18,10 +20,14 @@
 -Context
 -Firebase
 
+Files extension are .jsx for components, and for its style .css
+
 ## How works?
+
+
 # Getting Started with Create React App 
 
-### `This project is a market when you can sell your octocats`
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 React Version 18.2.0
