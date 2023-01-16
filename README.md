@@ -30,6 +30,7 @@ Files extension are .jsx for components, and for its style .css
 
 
 
+
 ## How works?
 
 ### `npm start`
