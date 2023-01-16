@@ -7,15 +7,13 @@ import { Link } from "react-router-dom";
 function Order() {
 
   const { order } = useParams();
-
- ;
   return (
     <div className="order__purchase">
       <h2>
         Your purchase order is <strong>({order})</strong>
       </h2>
       <p>Thank you for your purchase</p>
-      <Link to="/"> <img src={bit_octocat} alt="bit_octocat" /></Link>
+      <Link to="/"><img src={bit_octocat} alt="bit_octocat" /></Link>
     </div>
   );
 }
