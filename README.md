@@ -43,15 +43,10 @@ What procedures must be followed in order to buy something?
 2- Select a product from a category by clicking the "Show me" link in the card.
 3- We'll redirecting you to the item detail.
 4- Click + to add an item to your cart or - to remove an item from your cartv then, the status of your cart is visible from the bottom "view list" button.
-5- 
-6- 
-
-
-Sobre la card de. Producto hago click en show me, me lleva al detalle de producto donde puedo añadir unidades al cart, una vez que presionó en “add to cart” me muestra el botón de ver la lista de compras y me lleva al cart con el botón de seguir comprando o vaciar ítems del cart
-Debajo a la izquierda tengo la opción mediante botón de hacer el checkout y me dirige a la ruta de order donde me muestra un agradecimiento de compra con el número de orden de compra generado desde firebase 
+5- There are two options in the cart: "Clear Cart" to remove every item and "Continue Shopping" to keep shopping. To finish the purchase you need to press on 'Go to Checkout' to continue.
+6- There are two options in check out: if your cart is empty, press bottom 'Back to Home", if your cart is not empty to continue press "Go to Check out" in other page press "Confirm your purchase order" to continue.
+7- Finally, you can see a greeting + your purchase order number.
 ```
-
-
 
 ### `npm start`
 
