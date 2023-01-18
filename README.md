@@ -32,6 +32,7 @@ Files extension are .jsx for components, and for its style .css
 
 ```
 Navbar:
+**Logo: It behaves like a double-click link to the homepage.
 **Home: Within the filter, we may view every product that is offered.
 **Black: A clack category item is visible here.
 **White: A white category item is visible here.
@@ -49,6 +50,8 @@ What procedures must be followed in order to buy something?
 6- There are two options in check out: if your cart is empty, press bottom 'Back to Home", if your cart is not empty to continue press "Go to Check out" in other page press "Confirm your purchase order" to continue.
 7- Finally, you can see a greeting + your purchase order number.
 ```
+
+
 
 ### `npm start`
 
