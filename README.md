@@ -28,13 +28,31 @@
 Files extension are .jsx for components, and for its style .css
 
 ## Flow
+```
+Navbar:
+**Home: Within the filter, we may view every product that is offered.
+**Black: A clack category item is visible here.
+**White: A white category item is visible here.
+**Cian: A cian category item is visible here.
+**Contacto: A contact form is available here.
+**Cart: Here are the shopping lists we need to complete.
+
+What procedures must be followed in order to buy something?
+
+1- Enter octoCatMarket.
+2- Select a product from a category by clicking the "Show me" link in the card.
+3- We'll redirecting you to the item detail.
+4- Click + to add an item to your cart or - to remove an item from your cartv then, the status of your cart is visible from the bottom "view list" button.
+5- 
+6- 
 
 
-
+Sobre la card de. Producto hago click en show me, me lleva al detalle de producto donde puedo añadir unidades al cart, una vez que presionó en “add to cart” me muestra el botón de ver la lista de compras y me lleva al cart con el botón de seguir comprando o vaciar ítems del cart
+Debajo a la izquierda tengo la opción mediante botón de hacer el checkout y me dirige a la ruta de order donde me muestra un agradecimiento de compra con el número de orden de compra generado desde firebase 
+```
 
 
 ## How works?
-
 ### `npm start`
 
 Runs the app in the development mode.\
