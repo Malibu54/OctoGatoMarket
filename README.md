@@ -27,7 +27,7 @@
 
 Files extension are .jsx for components, and for its style .css
 
-## Flow
+## How works?
 ```
 Navbar:
 **Home: Within the filter, we may view every product that is offered.
@@ -52,7 +52,7 @@ Debajo a la izquierda tengo la opción mediante botón de hacer el checkout y me
 ```
 
 
-## How works?
+
 ### `npm start`
 
 Runs the app in the development mode.\
