@@ -1,10 +1,11 @@
 ### `This project is a market when you can sell your octocats`
+
 <p align="center">
 <img src="https://myoctocat.com/assets/images/base-octocat.svg" alt="octocat__explained"/>
 </p>
 
-
 ### This project is composed of 17 components
+
 ```
 -Cart
 -CartWidget
@@ -28,6 +29,7 @@
 Files extension are .jsx for components, and for its style .css
 
 ## How works?
+
 ```
 Navbar:
 **Home: Within the filter, we may view every product that is offered.
@@ -59,6 +61,7 @@ You may also see any lint errors in the console.
 ## Available Scripts
 
 In the project directory, you can run:
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
