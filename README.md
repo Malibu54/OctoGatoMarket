@@ -1,5 +1,7 @@
 ### `This project is a market when you can sell your octocats`
 
+Deploy 👉  https://63cc59a36de26f60cf8bbbdf--octocatmarket.netlify.app/
+
 <p align="center">
 <img src="https://myoctocat.com/assets/images/base-octocat.svg" alt="octocat__explained"/>
 </p>
@@ -51,21 +53,3 @@ What procedures must be followed in order to buy something?
 7- Finally, you can see a greeting + your purchase order number.
 ```
 
-
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-## Available Scripts
-
-In the project directory, you can run:
-
-## Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-React Version 18.2.0
