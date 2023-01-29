@@ -3,9 +3,10 @@ import { CartWidget } from "../CartWidget/CartWidget";
 import { Link } from "react-router-dom";
 import logo from "./logo.jpg";
 
+
 function NavBar() {
   return (
-    <>
+    <div className="navbar">
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <Link to={"/"}>
           <img src={logo} alt="logo" className="logo" />
@@ -63,8 +64,9 @@ function NavBar() {
             </li>
           </ul>
         </div>
+       
       </nav>
-    </>
+    </div>
   );
 }
 

@@ -1,3 +1,9 @@
+.navbar{
+  @media (min-width: 768px) and (max-width: 1805px){
+    display: none;
+  }
+}
+
 h1 {
   text-align: center;
   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
@@ -6,8 +12,7 @@ h1 {
 
 ul {
   list-style-type: none;
-  margin: 4px;
-  padding: 4px;
+  margin: 6px;
   overflow: hidden;
   background-color: #654db0;
   border-radius: 8px;
@@ -23,12 +28,12 @@ li a {
   text-align: center;
   padding: 4px 4px;
   text-decoration: none;
-  margin: 10px;
+  margin: 6px;
 }
 
 li a:hover {
-  background-color: #fff;
-  border-radius: 8px;
+  background-color: white;
+  border-radius: 10px;
 }
 
 .logo {
