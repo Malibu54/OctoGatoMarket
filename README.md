@@ -1,6 +1,6 @@
 ### `This project is a market when you can sell your octocats`
 
-Deploy 👉  https://63cc59a36de26f60cf8bbbdf--octocatmarket.netlify.app/
+Deploy 👉  https://octocatmarket.netlify.app
 
 <p align="center">
 <img src="https://myoctocat.com/assets/images/base-octocat.svg" alt="octocat__explained"/>
